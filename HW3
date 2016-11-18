@@ -1,22 +1,28 @@
 #include <iostream>
 using namespace std;
-class pr{ 
+class pr
+{ 
 public:
 	int a,b;
-	int getS(){
+	int getS()
+	{
 		return a*b;
 	}
-	int getP(){
+	int getP()
+	{
 		return 2*(a+b);
 	}
 };
-class kr{
+class kr
+{
 	public:
 	int r;
-	float getSk(){
+	float getSk()
+	{
 		return r*r*3.14;
 	}
-	float getPk(){
+	float getPk()
+	{
 		return (2*3.14*r);
 	}
 };
