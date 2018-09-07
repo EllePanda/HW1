@@ -1,0 +1,21 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+void main ()
+{
+ scanf("%d",&x);
+ scanf("%d",&x1);
+ scanf("%d",&y);
+ scanf("%d",&y1);
+ S=x*y;
+ S2=x1*y1;
+ if (x>x1)
+ {
+ printf ("s=%i",x*y);
+ }
+ else
+ {
+ printf("S=%i",x1*y1);
+ }
+ system ("pause");
+ }
